@@ -2,7 +2,7 @@ html{
     margin-top: 50px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color:gainsboro;
+    background-color: #EEEDEB;
 }
 
 h1 {
@@ -13,12 +13,16 @@ h1 {
     text-align: center;
     margin-top: 25px;
 }
+/* Coding projects block */
+.project-image{
+    padding: 20px;
+    border-radius: 20%;
+}
+
+#project-block{
+    text-align: center;
+}
 
 .bottom-bar{
     margin-left: 10px;
 }
-
-.project-image{
-    padding: 20px;
-}
-
