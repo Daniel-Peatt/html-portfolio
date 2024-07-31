@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #E3E1D9;
+}
+.header-text{
+    text-decoration: none;
+    color: black;
+}
+body > div{
+    display: flex;
+    justify-content: center;
+    padding-top: 30vb;
+    
+}
+body{
+   background-color: #E3E1D9; 
+   font-family: 'Courier New', Courier, monospace;
+}
