@@ -1,8 +1,9 @@
 html{
-    min-width: 600px;
+    
 }
 
 body{
+    
     background-color: rgb(217,218,213);
     font-family: 'Courier New', Courier, monospace;
     padding-left: 30px;
@@ -26,10 +27,10 @@ body{
 .container{
     padding-top: 50px;
     display: grid;
-    height: 100vh;
-    gap: 3rem;
+    gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr 1fr;
+    justify-items: center;
 }
 
 /* Every item */
@@ -37,7 +38,6 @@ body{
     display: flex;
     justify-self: center;
     align-self: center;
-    
 }
 
 /* Sets the description to span across both columns */
@@ -67,17 +67,21 @@ body{
 /* Customization to the self-portrait*/
 #self-portrait{
     border-radius: 25%;
-    height: 750px;
+    width: 476px;
+    height: auto;
 }
 
 
 /* Pushes the name under the portrait if the screen is under 900px */
-@media (max-width: 1000px) {
+@media (max-width: 850px) {
     .name{
         grid-column-start: 1;
         grid-column-end: 1;
     }
     .container{
         grid-template-columns: 1fr;
+    }
+    #self-portrait{ 
+        width: 340px; 
     }
 }
